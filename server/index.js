@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
+
+app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('Hello World')
+    res.send('RATTS :: <HOME> <FORUM> <SHOP> <ABOUT> <CAREER>')
 })
 
 app.listen(8080, () => {

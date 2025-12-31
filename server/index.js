@@ -5,7 +5,7 @@ const cors = require('cors');
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('RATTS :: <HOME> <FORUM> <SHOP> <ABOUT> <CAREER>')
+    res.send('GROVE :: <HOME> <FORUM> <SHOP> <ABOUT> <CAREER>')
 })
 
 app.listen(8080, () => {
